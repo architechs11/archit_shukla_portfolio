@@ -95,7 +95,7 @@ const About = () => {
           {/* Buttons */}
           <div className="flex flex-wrap gap-4">
             <a
-              href="https://drive.google.com/file/d/1uZqEDrrJBhfhH9MS22al3vW9CH3vXPpY/view?usp=sharing"
+              href="https://drive.google.com/file/d/1McvlirzkGEFCmgFeNXQTpaxXVyxzeYoe/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="group"
