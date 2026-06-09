@@ -189,7 +189,7 @@ const Navbar = () => {
 
               {/* Resume Button */}
               <a
-                href="https://drive.google.com/file/d/1McvlirzkGEFCmgFeNXQTpaxXVyxzeYoe/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Z0RnaJMdCXmnIXte_HZvLuMgyrCKckzg/view"
                 target="_blank"
                 rel="noopener noreferrer"
               >
