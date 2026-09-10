@@ -102,7 +102,7 @@ const Navbar = () => {
 
             {/* Resume Button */}
             <a
-              href="https://drive.google.com/file/d/1Z0RnaJMdCXmnIXte_HZvLuMgyrCKckzg/view?usp=sharing"
+              href="https://drive.google.com/file/d/1IiUWUCVCPMfIQ1xt-4F7EAvO9XaX6oYm/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -189,7 +189,7 @@ const Navbar = () => {
 
               {/* Resume Button */}
               <a
-                href="https://drive.google.com/file/d/1Z0RnaJMdCXmnIXte_HZvLuMgyrCKckzg/view"
+                href="https://drive.google.com/file/d/1IiUWUCVCPMfIQ1xt-4F7EAvO9XaX6oYm/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 import {
   FaJava,
   FaReact,
-  FaLinux,
   FaNodeJs,
   FaDocker,
   FaAws,
@@ -15,21 +14,20 @@ import {
 
 import {
   SiHtml5,
-  SiCss3,
+  // SiCss3,
   SiJavascript,
   SiTailwindcss,
   SiExpress,
   SiTypescript,
   SiNextdotjs,
   SiPostgresql,
-  SiPrisma,
   SiPostman,
   SiJsonwebtokens,
-  SiAuth0,
   SiPython,
+  SiGithub,
+  // SiPlaywright,
 } from "react-icons/si";
 
-import { VscCode } from "react-icons/vsc";
 import { MdApi } from "react-icons/md";
 
 const skills = [
@@ -37,20 +35,24 @@ const skills = [
     category: "Languages",
     items: [
       {
-        name: "Java",
-        icon: <FaJava className="text-5xl text-red-500" />,
+        name: "TypeScript",
+        icon: <SiTypescript className="text-5xl text-blue-500" />,
       },
       {
         name: "JavaScript",
         icon: <SiJavascript className="text-5xl text-yellow-400" />,
       },
       {
-        name: "TypeScript",
-        icon: <SiTypescript className="text-5xl text-blue-500" />,
-      },
-      {
         name: "Python",
         icon: <SiPython className="text-5xl text-[#3776AB]" />,
+      },
+      {
+        name: "Java",
+        icon: <FaJava className="text-5xl text-red-500" />,
+      },
+      {
+        name: "SQL",
+        icon: <MdApi className="text-5xl text-purple-400" />,
       },
     ],
   },
@@ -74,10 +76,10 @@ const skills = [
         name: "HTML5",
         icon: <SiHtml5 className="text-5xl text-orange-500" />,
       },
-      {
-        name: "CSS3",
-        icon: <SiCss3 className="text-5xl text-blue-400" />,
-      },
+      // {
+      //   name: "CSS3",
+      //   icon: <SiCss3 className="text-5xl text-blue-400" />,
+      // },
     ],
   },
 
@@ -97,12 +99,12 @@ const skills = [
         icon: <MdApi className="text-5xl text-red-400" />,
       },
       {
-        name: "JWT Auth",
+        name: "JWT Authentication",
         icon: <SiJsonwebtokens className="text-5xl text-pink-500" />,
       },
       {
-        name: "OAuth",
-        icon: <SiAuth0 className="text-5xl text-orange-400" />,
+        name: "RBAC",
+        icon: <MdApi className="text-5xl text-indigo-400" />,
       },
     ],
   },
@@ -115,10 +117,6 @@ const skills = [
         icon: <SiPostgresql className="text-5xl text-blue-400" />,
       },
       {
-        name: "Prisma ORM",
-        icon: <SiPrisma className="text-5xl text-cyan-200" />,
-      },
-      {
         name: "Docker",
         icon: <FaDocker className="text-5xl text-blue-500" />,
       },
@@ -126,31 +124,31 @@ const skills = [
         name: "AWS",
         icon: <FaAws className="text-5xl text-orange-400" />,
       },
+      {
+        name: "CI/CD",
+        icon: <FaAws className="text-5xl text-purple-400" />,
+      },
     ],
   },
 
   {
-    category: "Tools & Concepts",
+    category: "Automation & Tools",
     items: [
+      // {
+      //   name: "Playwright",
+      //   icon: <SiPlaywright className="text-5xl text-green-400" />,
+      // },
       {
         name: "Git",
         icon: <FaGitAlt className="text-5xl text-orange-500" />,
       },
       {
+        name: "GitHub",
+        icon: <SiGithub className="text-5xl text-white" />,
+      },
+      {
         name: "Postman",
         icon: <SiPostman className="text-5xl text-orange-400" />,
-      },
-      {
-        name: "Object-Oriented Programming",
-        icon: <VscCode className="text-5xl text-gray-300" />,
-      },
-      {
-        name: "DSA",
-        icon: <VscCode className="text-5xl text-purple-400" />,
-      },
-      {
-        name: "Linux",
-        icon: <FaLinux className="text-5xl text-yellow-400" />,
       },
     ],
   },
@@ -187,8 +185,9 @@ const Skills = () => {
           </h2>
 
           <p className="text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
-            A combination of modern frontend technologies, scalable backend
-            development, cloud tools, and strong problem-solving skills.
+            A modern technology stack spanning full-stack development,
+            backend engineering, automation, databases, cloud infrastructure,
+            and development tools.
           </p>
         </motion.div>
 

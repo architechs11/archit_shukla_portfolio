@@ -2,32 +2,38 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { FaCode, FaJava, FaReact, FaBrain, FaDownload } from "react-icons/fa";
+import {
+  FaCode,
+  FaReact,
+  FaPython,
+  FaCloud,
+  FaDownload,
+} from "react-icons/fa";
 
 const highlights = [
   {
-    icon: <FaJava size={22} />,
-    title: "Java Development",
+    icon: <FaCode size={22} />,
+    title: "Backend Development",
     description:
-      "Strong foundation in Java, OOP concepts, backend logic, and scalable application development.",
+      "Building reliable backend services and REST APIs using Node.js, Express.js, PostgreSQL, JWT authentication, and RBAC.",
   },
   {
     icon: <FaReact size={22} />,
-    title: "Modern Web Stack",
+    title: "Modern Web Development",
     description:
-      "Building responsive and interactive applications using React.js, Next.js, Node.js, and Tailwind CSS.",
+      "Developing responsive and maintainable applications using React.js, Next.js, TypeScript, JavaScript, and Tailwind CSS.",
   },
   {
-    icon: <FaBrain size={22} />,
-    title: "AI & Innovation",
+    icon: <FaPython size={22} />,
+    title: "Automation Engineering",
     description:
-      "Exploring Generative AI and intelligent systems to solve real-world challenges.",
+      "Developing reliable browser automation and testing workflows using TypeScript, Python, and Playwright.",
   },
   {
-    icon: <FaCode size={22} />,
-    title: "Problem Solving",
+    icon: <FaCloud size={22} />,
+    title: "Cloud & DevOps",
     description:
-      "Passionate about DSA, optimization, clean architecture, and writing maintainable code.",
+      "Working with Docker and AWS while focusing on consistent development, deployment, performance, and application reliability.",
   },
 ];
 
@@ -57,37 +63,45 @@ const About = () => {
 
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
             Passionate About{" "}
-            <span className="gradient-text">Building Modern Software</span>
+            <span className="gradient-text">
+              Building Reliable Software
+            </span>
           </h2>
 
           <p className="text-gray-400 text-lg leading-relaxed mb-6">
             Hi, I’m{" "}
             <span className="text-white font-semibold">Archit Shukla</span>, a
-            Software Developer focused on creating scalable, responsive, and
-            user-centric applications using modern technologies.
+            Software Engineer with 1+ year of experience building scalable
+            full-stack applications, backend services, and automation
+            solutions.
           </p>
 
           <p className="text-gray-400 text-lg leading-relaxed mb-8">
-            I specialize in Java, React.js, Next.js, Node.js, and full-stack
-            development while continuously exploring AI-driven solutions, system
-            design, and performance optimization.
+            My experience spans TypeScript, JavaScript, Node.js, Express.js,
+            React.js, Next.js, PostgreSQL, Python, and Playwright. I enjoy
+            solving engineering problems, improving application reliability,
+            and building maintainable software with modern development
+            practices.
           </p>
 
           {/* Current Status */}
           <div className="glass rounded-3xl p-5 border border-white/10 mb-8">
-            <div className="flex items-center gap-3">
-              <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse" />
+            <div className="flex items-start gap-3">
+              <div className="relative mt-1.5">
+                <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse" />
+                <div className="absolute inset-0 w-3 h-3 bg-green-400 rounded-full animate-ping opacity-40" />
+              </div>
 
-              <p className="text-sm text-gray-300">
+              <p className="text-sm text-gray-300 leading-relaxed">
                 Currently working as a{" "}
                 <span className="text-white font-medium">
-                  Software Developer
+                  Software Engineer
                 </span>{" "}
                 at{" "}
                 <span className="text-white font-medium">
-                  Arvius Software Pvt Ltd
+                  Crosslynx Technologies Service Pvt Ltd
                 </span>{" "}
-                in Noida, India
+                in Noida, India.
               </p>
             </div>
           </div>
@@ -95,14 +109,14 @@ const About = () => {
           {/* Buttons */}
           <div className="flex flex-wrap gap-4">
             <a
-              href="https://drive.google.com/file/d/1Z0RnaJMdCXmnIXte_HZvLuMgyrCKckzg/view?usp=sharing"
+              href="https://drive.google.com/file/d/1IiUWUCVCPMfIQ1xt-4F7EAvO9XaX6oYm/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="group"
             >
               <button className="flex items-center gap-3 px-7 py-4 rounded-2xl bg-gradient-to-r from-purple-600 to-blue-600 text-white font-medium shadow-lg hover:scale-105 transition duration-300">
                 <FaDownload />
-                Download Resume
+                View Resume
               </button>
             </a>
 
